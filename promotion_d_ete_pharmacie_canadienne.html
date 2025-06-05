@@ -4,139 +4,102 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Promotion d'Été - Pharmacie Canadienne</title>
-  <style>
-    body, table, td, a { margin:0; padding:0; border:0; outline:none; text-decoration:none; }
-    body { width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; background: linear-gradient(135deg, #e8f0fe, #e6f4ea); font-family: Arial, sans-serif; }
-    img { border:0; height:auto; line-height:100%; outline:none; text-decoration:none; display:block; }
-    table { border-collapse:collapse !important; }
-
-    .container { width:100%; max-width:600px; margin:30px auto; background-color:#ffffff; border-radius:16px; overflow:hidden; box-shadow:0 8px 24px rgba(0,0,0,0.1); }
-
-    .banner img { width:100%; max-width:600px; height:auto; display:block; }
-
-    .title { font-size:24px; font-weight:bold; color:#ff7e1b; margin:16px 0; text-align:center; }
-
-    .price { background-color:#34a853; color:#ffffff; text-align:center; padding:16px 8px; font-size:18px; font-weight:bold; border-bottom-left-radius:16px; border-bottom-right-radius:16px; }
-    .price-small { font-size:12px; opacity:0.8; margin-top:4px; display:block; }
-
-    .countdown { background-color:#dc3545; color:#ffffff; text-align:center; padding:16px 8px; font-size:14px; }
-    .unit-container { padding-top:8px; }
-    .unit { display:inline-block; background-color:rgba(255,255,255,0.2); border-radius:8px; padding:8px 12px; margin:4px; min-width:50px; }
-    .unit .num { font-size:16px; font-weight:bold; display:block; }
-    .unit .label { font-size:10px; text-transform:uppercase; opacity:0.9; }
-
-    .promo { background-color:#1a73e8; color:#ffffff; text-align:center; padding:16px 8px; }
-    .promo-code { display:inline-block; background-color:rgba(255,255,255,0.15); border:1px dashed rgba(255,255,255,0.5); border-radius:8px; padding:10px 14px; margin-top:10px; }
-    .promo-code .code { font-size:20px; font-weight:bold; letter-spacing:1px; }
-    .promo-instruction { font-size:10px; margin-top:4px; opacity:0.9; }
-
-    .content { padding:20px; color:#333333; font-size:14px; line-height:1.6; }
-    .benefits { width:100%; text-align:center; padding:16px 0; }
-    .benefit { display:inline-block; width:28%; min-width:80px; vertical-align:top; background-color:#f1f3f4; border-radius:12px; padding:10px 6px; margin:6px; }
-    .benefit .icon { font-size:22px; display:block; margin-bottom:6px; }
-    .benefit .title { font-size:13px; font-weight:bold; color:#ff7e1b; margin:0 0 4px; }
-    .benefit .desc { font-size:11px; color:#666666; margin:0; }
-
-    .cta { text-align:center; padding:24px 8px; }
-    .cta a {
-      background: linear-gradient(90deg, #ff7e1b 0%, #f4b400 100%);
-      color:#ffffff; font-size:18px; font-weight:bold; padding:16px 32px;
-      border-radius:40px; display:inline-block; box-shadow:0 6px 18px rgba(0,0,0,0.12);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-    .cta a:hover {
-      transform: translateY(-3px); box-shadow:0 8px 24px rgba(0,0,0,0.18);
-    }
-
-    .footer { background-color:#202124; color:#bdc1c6; font-size:12px; text-align:center; padding:14px 10px; line-height:1.5; border-bottom-left-radius:16px; border-bottom-right-radius:16px; }
-    .footer a { color:#ff7e1b; font-weight:bold; font-size:12px; }
-
-    @media screen and (max-width:480px) {
-      .title { font-size:20px; }
-      .price { font-size:16px; padding:14px 6px; }
-      .unit { min-width:40px; padding:6px 10px; }
-      .unit .num { font-size:14px; }
-      .promo-code .code { font-size:18px; }
-      .benefit { width:45%; margin:4px; }
-      .cta a { font-size:16px; padding:14px 28px; }
-      .footer { font-size:11px; padding:12px 8px; }
-    }
-  </style>
 </head>
-<body>
+<body style="margin:0; padding:0; width:100%; background-color:#e8f0fe; font-family:Arial,sans-serif;">
+  <!-- Invisible preheader -->
   <div style="display:none; font-size:0; line-height:0; max-height:0; max-width:0; opacity:0; overflow:hidden;">
     🌞 Promotion d'été exclusive ! Pilules à partir de 0,50€ - Livraison gratuite en Île-de-France !
   </div>
-  <table class="container" align="center" cellpadding="0" cellspacing="0" role="presentation">
+  <!-- Container -->
+  <table role="presentation" align="center" width="100%" cellpadding="0" cellspacing="0" style="max-width:600px; margin:30px auto; background-color:#ffffff; border-radius:16px; overflow:hidden; box-shadow:0 8px 24px rgba(0,0,0,0.1);">
+    <!-- Banner -->
     <tr>
-      <td>
-        <img src="https://res.cloudinary.com/dhtnegf9d/image/upload/f_auto,q_auto/ut8bhqyspiamf0rssw6a" alt="Soldes d'été Pharmacie" width="600" style="max-width:100%; height:auto; display:block; border-top-left-radius:16px; border-top-right-radius:16px;">
+      <td style="padding:0;">
+        <img src="https://res.cloudinary.com/dhtnegf9d/image/upload/f_auto,q_auto/ut8bhqyspiamf0rssw6a" alt="Soldes d'été Pharmacie" width="600" height="200" style="display:block; width:100%; height:auto; border-top-left-radius:16px; border-top-right-radius:16px;" loading="lazy" />
       </td>
     </tr>
+    <!-- Price -->
     <tr>
-      <td class="price">
-        💊 À partir de 0,50€ la pilule !
-        <span class="price-small">Prix imbattables sur tous vos traitements</span>
+      <td style="background-color:#34a853; color:#ffffff; text-align:center; padding:16px 8px; font-size:18px; font-weight:bold; border-bottom-left-radius:16px; border-bottom-right-radius:16px;">
+        💊 À partir de 0,50€ la pilule !<br>
+        <span style="font-size:12px; opacity:0.8; display:block; margin-top:4px;">Prix imbattables sur tous vos traitements</span>
       </td>
     </tr>
+    <!-- Countdown -->
     <tr>
-      <td class="countdown">
-        ⏰ Offre limitée - Dépêchez-vous !
-        <div class="unit-container">
-          <div class="unit"><span class="num">2</span><span class="label">Jours</span></div>
-          <div class="unit"><span class="num">14</span><span class="label">Heures</span></div>
-          <div class="unit"><span class="num">35</span><span class="label">Min</span></div>
-          <div class="unit"><span class="num">42</span><span class="label">Sec</span></div>
-        </div>
+      <td style="background-color:#dc3545; color:#ffffff; text-align:center; padding:16px 8px; font-size:14px;">
+        ⏰ Offre limitée - Dépêchez-vous !<br>
+        <span style="display:inline-block; margin-top:8px;">
+          <span style="display:inline-block; background-color:rgba(255,255,255,0.2); border-radius:8px; padding:8px 12px; margin:4px; min-width:50px;">
+            <span style="font-size:16px; font-weight:bold; display:block;">2</span>
+            <span style="font-size:10px; text-transform:uppercase; opacity:0.9;">Jours</span>
+          </span>
+          <span style="display:inline-block; background-color:rgba(255,255,255,0.2); border-radius:8px; padding:8px 12px; margin:4px; min-width:50px;">
+            <span style="font-size:16px; font-weight:bold; display:block;">14</span>
+            <span style="font-size:10px; text-transform:uppercase; opacity:0.9;">Heures</span>
+          </span>
+          <span style="display:inline-block; background-color:rgba(255,255,255,0.2); border-radius:8px; padding:8px 12px; margin:4px; min-width:50px;">
+            <span style="font-size:16px; font-weight:bold; display:block;">35</span>
+            <span style="font-size:10px; text-transform:uppercase; opacity:0.9;">Min</span>
+          </span>
+          <span style="display:inline-block; background-color:rgba(255,255,255,0.2); border-radius:8px; padding:8px 12px; margin:4px; min-width:50px;">
+            <span style="font-size:16px; font-weight:bold; display:block;">42</span>
+            <span style="font-size:10px; text-transform:uppercase; opacity:0.9;">Sec</span>
+          </span>
+        </span>
       </td>
     </tr>
+    <!-- Promo Code -->
     <tr>
-      <td class="promo">
-        🎯 Votre code promo exclusif
-        <div class="promo-code">
-          <span class="code">HAPPY25</span><br>
-          <span class="promo-instruction">Copiez ce code à la commande</span>
-        </div>
+      <td style="background-color:#1a73e8; color:#ffffff; text-align:center; padding:16px 8px;">
+        🎯 Votre code promo exclusif<br>
+        <span style="display:inline-block; background-color:rgba(255,255,255,0.15); border:1px dashed rgba(255,255,255,0.5); border-radius:8px; padding:10px 14px; margin-top:10px;">
+          <span style="font-size:20px; font-weight:bold; letter-spacing:1px;">HAPPY25</span><br>
+          <span style="font-size:10px; opacity:0.9;">Copiez ce code à la commande</span>
+        </span>
       </td>
     </tr>
+    <!-- CTA Button -->
     <tr>
-      <td class="cta">
-        <a href="https://5ln.me/pharmafr">🛒 Commander Maintenant</a>
+      <td style="text-align:center; padding:24px 8px;">
+        <a href="https://5ln.me/pharmafr" style="background:linear-gradient(90deg, #ff7e1b 0%, #f4b400 100%); color:#ffffff; font-size:18px; font-weight:bold; padding:16px 32px; border-radius:40px; display:inline-block; box-shadow:0 6px 18px rgba(0,0,0,0.12); text-decoration:none;">
+          🛒 Commander Maintenant
+        </a>
       </td>
     </tr>
+    <!-- Content -->
     <tr>
-      <td class="content">
+      <td style="padding:20px; color:#333333; font-size:14px; line-height:1.6;">
         <div style="text-align:center; font-size:12px; color:#555555; margin-bottom:12px;">Code : HAPPY25 • Offre limitée</div>
         {{ $json.choices[0].message.content.htmlBody }}
-        <div class="title">🏖️ Profitez de l'été en pleine forme !</div>
-        <div class="benefits">
-          <div class="benefit">
-            <span class="icon">🚚</span>
-            <span class="title">Livraison Gratuite</span>
-            <span class="desc">Contre remboursement en Île-de-France</span>
-          </div>
-          <div class="benefit">
-            <span class="icon">🔒</span>
-            <span class="title">Paiement Sécurisé</span>
-            <span class="desc">100% sécurisé et garanti</span>
-          </div>
-          <div class="benefit">
-            <span class="icon">💊</span>
-            <span class="title">Prix Imbattables</span>
-            <span class="desc">À partir de 0,50€ la pilule</span>
-          </div>
+        <div style="font-size:24px; font-weight:bold; color:#ff7e1b; margin:16px 0; text-align:center;">🏖️ Profitez de l'été en pleine forme !</div>
+        <div style="width:100%; text-align:center; padding:16px 0;">
+          <span style="display:inline-block; width:28%; min-width:80px; vertical-align:top; background-color:#f1f3f4; border-radius:12px; padding:10px 6px; margin:6px;">
+            <span style="font-size:22px; display:block; margin-bottom:6px;">🚚</span>
+            <span style="font-size:13px; font-weight:bold; color:#ff7e1b; display:block; margin-bottom:4px;">Livraison Gratuite</span>
+            <span style="font-size:11px; color:#666666; display:block;">Contre remboursement en Île-de-France</span>
+          </span>
+          <span style="display:inline-block; width:28%; min-width:80px; vertical-align:top; background-color:#f1f3f4; border-radius:12px; padding:10px 6px; margin:6px;">
+            <span style="font-size:22px; display:block; margin-bottom:6px;">🔒</span>
+            <span style="font-size:13px; font-weight:bold; color:#ff7e1b; display:block; margin-bottom:4px;">Paiement Sécurisé</span>
+            <span style="font-size:11px; color:#666666; display:block;">100% sécurisé et garanti</span>
+          </span>
+          <span style="display:inline-block; width:28%; min-width:80px; vertical-align:top; background-color:#f1f3f4; border-radius:12px; padding:10px 6px; margin:6px;">
+            <span style="font-size:22px; display:block; margin-bottom:6px;">💊</span>
+            <span style="font-size:13px; font-weight:bold; color:#ff7e1b; display:block; margin-bottom:4px;">Prix Imbattables</span>
+            <span style="font-size:11px; color:#666666; display:block;">À partir de 0,50€ la pilule</span>
+          </span>
         </div>
-        <p>✅ <strong>Service client</strong> 24h/24 et 7j/7<br>
-        ✅ <strong>Livraison express</strong> 1 à 4 jours ouvrés<br>
-        ✅ <strong>Garantie</strong> satisfaction ou remboursé</p>
+        <p style="margin:0;">✅ <strong>Service client</strong> 24h/24 et 7j/7<br>✅ <strong>Livraison express</strong> 1 à 4 jours ouvrés<br>✅ <strong>Garantie</strong> satisfaction ou remboursé</p>
       </td>
     </tr>
+    <!-- Footer -->
     <tr>
-      <td class="footer">
+      <td style="background-color:#202124; color:#bdc1c6; font-size:12px; text-align:center; padding:14px 10px; line-height:1.5; border-bottom-left-radius:16px; border-bottom-right-radius:16px;">
         <p style="margin:0;">© 2025 La Pharmacie Canadienne</p>
-        <p style="margin:8px 0 0;"><a href="https://5ln.me/cont">Se désabonner</a> | <a href="https://5ln.me/cont">Contactez-nous</a></p>
+        <p style="margin:8px 0 0;"><a href="https://5ln.me/cont" style="color:#ff7e1b; font-weight:bold;">Se désabonner</a> | <a href="https://5ln.me/cont" style="color:#ff7e1b; font-weight:bold;">Contactez-nous</a></p>
         <p style="margin-top:8px; font-size:11px; color:#90a4ae; text-align:left;">
-          Pharmacie Canadienne propose sur son site l’offre de parapharmacie la plus vaste avec plus de 100 000 produits. Service client 24/7, livraison 1-4 jours ouvrés. Des marques comme Weleda, Mustela, Avène, et plus, aux meilleurs prix.
+          Pharmacie Canadienne propose sur son site l’offre de parapharmacie la plus vaste avec plus de 100 000 produits. Service client 24/7, livraison 1-4 jours ouvrés. Des marques comme Weleda, Mustela, Avène, et plus, aux meilleurs prix.
         </p>
       </td>
     </tr>
